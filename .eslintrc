@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": ["import", "react"],
+  "settings": {
+    "import/parser": "babel-eslint"
+    // "import/resolver": {
+    //   "webpack": {
+    //     "config": "webpack.config.dev.js"
+    //   }
+    // }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {}
+}
